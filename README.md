@@ -9,8 +9,8 @@ For more information on the sbt-dotty plugin, see the
 
 ## Run with
 
-> sbt "run content.txt query"
+> sbt "run content.txt query --options"
 
-or
+`--ignore-case` - ignore case in query
 
-> sbt "run content.txt query --ignore-case"
+`--exclusive` print all line that do not match query
